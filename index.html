@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HackTum</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+
+  $(document).ready(function() {
+
+	$("#btnFob").click(function(){
+	    $.ajax({
+		   // url : "http://localhost:3000/error",
+		    type: "POST",
+		    success: function(data, textStatus, jqXHR)
+		    {
+		        //data - response from server
+		    },
+		    error: function (jqXHR, textStatus, errorThrown)
+		    {
+		 
+		    }
+		});
+
+		
+	});
+  });
+
+  </script>
+</head>
+<body>
+
+<div style="width:100%">
+	<button id="btnFob" > 
+		<span id="fob"></span>
+	</button>
+	<img src="conn2.png" alt="" style="width:70%; height: 60%">
+</div>
+</body>
+</html>

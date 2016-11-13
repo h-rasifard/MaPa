@@ -1,0 +1,19 @@
+#btnFob{
+	width: 250px;
+    height: 250px;
+    border-radius: 100px;
+	background: url(fob.png);
+	display: block;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+ 
+ #imgAnimate
+ {
+ 	display: block;
+    margin: 0 auto;
+ }
